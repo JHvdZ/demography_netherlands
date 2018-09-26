@@ -61,6 +61,7 @@ ui <- fluidPage(
                         textOutput(outputId = "tekstgem")),
       conditionalPanel(condition = "input.keuze == 'Provincie'",
                        textOutput(outputId = "tekstprov")),
+      br(), br(),
       plotOutput(outputId = "bevpyr")
 )
 )
